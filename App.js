@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavigationAction, NavigationContainer} from '@react-navigation/native';
+import Navigation from './src/navigation/Navigation';
 import {
   SafeAreaView,
   StyleSheet,
@@ -13,9 +14,7 @@ export default function App(){
 
   return(
     <NavigationContainer>
-      <SafeAreaView>
-        <Text>Hola mundo</Text>
-      </SafeAreaView>
+      <Navigation/>
     </NavigationContainer>
   )
 }
